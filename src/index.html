@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="logo"><img src="../public/imgs/Logo.png" alt="" srcset=""></div>
+        <main>
+            <div>   
+                <textarea name="text" id="text" cols="30" rows="10">Digite seu texto</textarea>
+                <div class="buttons">
+                    <div onclick="" class="warning">
+                        <img src="../public/imgs/Group.png" alt="" srcset="">
+                        <p style="color: #495057; margin-left: 8px;">Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <button id="criptografar">Criptografar</button>
+                    <button id="descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <textarea class="result"></textarea>
+            <div>
+                <img style="height: 250px; width: 250px;" src="../public/imgs/resultimage.png" alt="" srcset="">
+                <h2>Nenhuma mensagem <br>encontrada</h2>
+                <p style="color: #495057; margin-top: 16px;">Digite um texto que você deseja <br>criptografar ou descriptografar.</p>
+            </div>
+            <button class="copyButton">Copiar</button>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

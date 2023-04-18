@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: #F3F5FC;
+    font-family: 'Inter', sans-serif;  
+}
+
+body > div > div.logo {
+    padding: 40px 0px 40px 50px;
+    float: left;
+}
+
+body > div > aside {
+    width: 400px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 40px 40px 0px;
+    border-radius: 32px;
+    background-color: #fff;
+    float: right;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+} 
+
+body > div > aside > textarea.result {
+    height: 80%;
+    width: 90%;
+    border: none;
+    resize: none;
+    margin-top: 32px;
+    font-size: 24px;
+    color: #495057;
+    outline: none;
+}
+
+body > div > aside > button.copyButton {
+    width: 90%;
+    height: 67px;
+    color: #0A3871; 
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    margin-left: 20px;
+}
+
+body > div > main {
+    float: left;
+    margin-top: 168px;
+}
+
+body > div > aside > div > h2 {
+    margin: 32px 0px 16px 0px"
+}
+ 
+@media screen and (max-width: 1350px){
+    body > div > main {
+        float: left;
+        margin-top: 168px;
+        margin-left: -80px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    body{
+        width: 100vw;
+    }
+    body > div > div.logo {
+        padding: 40px 0px 40px 50px;
+        float: none;
+    }
+    body > div > main {
+        float: none;
+        margin-top: 168px;
+        margin-left: 0px;
+        padding: 0px 50px 0px 50px;
+    }
+    body > div > aside {
+        position: relative;
+        width: 90vw;
+        height: auto;
+        padding: 32px 0px 32px 0px;
+        margin: 64px 50px 64px 50px;
+        float: none;
+    }
+
+    body > div > aside > p.result {
+        margin-bottom: 32px;
+    }
+
+    body > div > aside > div > img {
+        display: none;
+    }
+    body > div > main{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body > div > aside > button.copyButton {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 511px){
+    body > div > main > div > textarea {
+        margin-left: 40px;
+    }
+    body > div > aside > button.copyButton {
+        margin-left: 10px;
+    }
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+body > div > main > div > textarea#text{
+    height: 450px;
+    color: #0A3871;
+    font-size: 2em;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+#criptografar{
+    width: 328px;
+    height: 67px;
+    color: white;
+    background-color: #0A3871;
+    text-align: center;
+    line-height: 67px;
+    border: none;
+    border-radius: 24px;
+}
+
+#descriptografar{
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    text-align: center;
+    line-height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 785px){
+    body > div > main > div > div.buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #descriptografar{
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    text-align: center;
+    line-height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin-top: 24px;
+    margin-left: 0px;
+    }
+}
